@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2? family= Inria+Serif:wght@300 & family= Ravi+Prakash & family= Roboto+Mono:wght@200 & display=swap');
+
+h1 {
+    font-family: 'Ravi Prakash', serif;
+}
+
+body {
+    background-color: black;
+    width: 100;
+
+}
+
+header {
+    background-color: #730000;
+}
+
+div {
+    color: aliceblue;   
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 27px;
+    padding: 30px 26px;
+    float: left;
+    cursor: pointer;
+
+}
+
+
+.sectiontitulo {
+    color: aliceblue;
+    background-color: #730000;
+    font-size: 60px;
+    text-align: center;
+}
+
+.sectionhistoria {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+article {
+    background-color: #730000;
+    font-size: 23px;
+
+}
+
+button {
+    color: #730000;
+}
+
+.sectioncontacto {
+    color: aliceblue;
+
+}
+
+.sectionfechas {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sectionmiranos {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagenuno {
+    height: 38.75rem;
+    width: 100%;
+    background-image: url(trotsky_vengaran-ea56f.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.imagendos {
+    height: 38.75rem;
+    width: 100%;
+    background-image: url(guille.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagentres {
+    height: 38.75rem;
+    width: 100%;
+    background-image: url(hugo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagencuatro {
+    height: 38.75rem;
+    width: 100%;
+    background-image: url(grano.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagencinco {
+    height: 38.75rem;
+    width: 100%;
+    background-image: url(ciuico.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logoredes {
+    background-color: #730000;
+    text-align: center;
+}
+
+.discografia {
+    display: flex;
+
+}
+
+
+@media (max-width: 767px) {
+
+    .navbar {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navbar li a {
+        padding: 14px 25px;
+        cursor: pointer;
+    }
+
+    .discografia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .discografia div img {
+        width: 100%;
+    }
+
+    .sectiontitulo {
+        font-size: 20px;
+    }
+
+}
